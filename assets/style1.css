@@ -5,3 +5,16 @@ header {
     padding: 20px;
     text-align: center;
   }
+
+  .section-contact {
+    border: 10px solid #142850;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 200px;
+    text-align: left;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
