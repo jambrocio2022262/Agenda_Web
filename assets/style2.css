@@ -5,7 +5,7 @@ header {
     padding: 20px;
     text-align: center;
   }
-  
+
 nav {
     padding: 10px;
     text-align: left;
@@ -27,3 +27,18 @@ nav {
     text-decoration: none;
     padding: 5px;
   }
+
+  .nuevo{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 330;
+}
