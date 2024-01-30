@@ -42,3 +42,31 @@ form{
     text-align: center;
     width: 330;
 }
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h2{
+    color: #000;
+    font-size: 35px;
+}
+
+label{
+    color: black;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 16px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    color: black;
+    outline: none;
+}
