@@ -1,10 +1,7 @@
-header {
+body{
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,86,1) 100%);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+    }
 
 nav {
     padding: 10px;
@@ -36,7 +33,7 @@ nav {
 }
 
 form{
-    padding: 50px 55px;
+    padding: 50px 100px;
     box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
     border-radius: 20px;
     text-align: center;
@@ -61,12 +58,12 @@ label{
     margin-bottom: 15px;
 }
 
-input, textarea{
-    padding: 16px 25px;
+input{
+    padding: 16px 70px;
     border-radius: 25px;
     margin-bottom: 20px;
-    background-color: aliceblue;
+    background-color:  aliceblue;
     border: 2px solid aliceblue;
-    color: black;
+    color: rgb(0, 0, 0);
     outline: none;
 }
