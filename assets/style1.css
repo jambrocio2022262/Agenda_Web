@@ -12,7 +12,7 @@ header {
     margin: 10px auto;
     padding: 200px;
     text-align: left;
-    max-width: 200px;
+    max-width: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,7 @@ header {
 
   .contenedor{
     display: inline-grid;
-    margin-left: 300px;
+    margin-left: 200x;
     margin-top: 50px;
   }
 
