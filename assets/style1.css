@@ -7,7 +7,7 @@ header {
   }
 
   .section-contact {
-    border: 10px solid #142850;
+    border: 10px solid #fc4656;
     border-radius: 20px;
     margin: 10px auto;
     padding: 200px;
@@ -18,3 +18,34 @@ header {
     align-items: center;
     justify-content: center;
   }
+
+  .contenedor{
+    display: inline-grid;
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+
+#contacto1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#contacto2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#contacto3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#contacto4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
