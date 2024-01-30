@@ -72,3 +72,11 @@ nav {
     text-decoration: none;
     padding: 5px;
   }
+
+  #num{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #ed4d69;
+
+  }
