@@ -10,3 +10,28 @@ body {
     padding: 20px;
     text-align: center;
   }
+
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+  
+  .section-contact {
+    border: 10px solid #fc4656;
+    border-radius: 20px;
+    margin: 50px;
+    text-align: left;
+    max-width: 800px;
+    width: 200%;
+  }
+
+  .Detalle1 {
+    display: none;
+    background: black;
+    border-radius: 25px;
+    max-width: 100%;
+  }
