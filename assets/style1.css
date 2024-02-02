@@ -1,82 +1,104 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
 header {
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,86,1) 100%);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .section-contact {
-    padding-block: 200px;
-    border: 10px solid #fc4656;
-    border-radius: 20px;
-    margin: 10px auto;
-    padding-inline: 100px;
-    text-align: left;
-    height: 20px;
-    max-width: 500px;
-    display: flex;
-   flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .contenedor{
-    display: inline-grid;
-    margin-left: 300px;
-    margin-top: 50px;
-  }
-
-#contacto1{
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-#contacto2{
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-
-#contacto3{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-
-#contacto4{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,86,1) 100%);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 nav {
-    padding: 10px;
-    text-align: left;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.section-contact {
+  border: 10px solid #fc4656;
+  border-radius: 20px;
+  margin: 50px;
+  text-align: left;
+  max-width: 800px;
+  width: 200%;
+}
+
+#contacto1,
+#contacto2,
+#contacto3,
+#contacto4,
+#contacto5 {
+  flex: 1 0 300px;
+}
+
+.Detalle1 {
+  display: none;
+  background: black;
+  border-radius: 25px;
+  max-width: 100%;
+}
+
+/* Estilos específicos para dispositivos pequeños (hasta 600px de ancho) */
+
+@media screen and (max-width: 600px) {
+  .contenedor {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 10px;
   }
 
-  li {
-    display: inline-block;
-    margin-right: 10px;
+  .section-contact {
+      padding: 20px;
+      margin: 10px;
   }
 
-  li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px;
+  .Detalle1 {
+      width: 80%;
+  }
+}
+
+/* Estilos específicos para dispositivos medianos (entre 601px y 1200px de ancho) */
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .contenedor {
+      margin-left: 50px;
   }
 
-  #num{
-    height: 200px;
-    width: 200px;
-    border-radius: 15px;
-    background-color: #ed4d69;
-
+  .section-contact {
+      padding: 30px;
   }
+
+  .Detalle1 {
+      width: 60%;
+  }
+}
