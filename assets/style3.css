@@ -35,12 +35,60 @@ body {
 }
 
   .Detalle1 {
+    background-color: #fc4656;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
     display: none;
-    background: black;
-    border-radius: 25px;
-    width: 1000px;
-    height: 500px;
+    position: fixed;
+    z-index: 500;
   }
+
+  h2{
+    color: #000;
+    font-size: 35px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+label{
+    color: black;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+}
+
+input{
+    padding: 16px 25px;
+    border-radius: 25px;
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    color: black;
+    outline: none;
+}
+
+
+form{
+    padding: 50px 55px;
+    box-shadow:  0 0 20px rgb(0, 0, 0, 0.2); 
+    border-radius: 20px;
+    text-align: center;
+    width: 330;
+}
+
+
+  .detalle{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
   .Detalle2 {
     display: none;
