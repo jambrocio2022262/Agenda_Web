@@ -62,10 +62,21 @@ li a {
 }
 
 .Detalle1 {
+  background-color: #fc4656;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
   display: none;
-  background: black;
-  border-radius: 25px;
-  max-width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+.detalle1{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Estilos específicos para dispositivos pequeños (hasta 600px de ancho) */
