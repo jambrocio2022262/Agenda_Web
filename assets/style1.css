@@ -79,6 +79,42 @@ li a {
   justify-content: center;
 }
 
+form{
+  padding: 50px 100px;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 330;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+h2{
+  color: #000;
+  font-size: 35px;
+}
+
+label{
+  color: black;
+  font-size: 15px;
+  font-weight: 600px;
+  margin-bottom: 15px;
+}
+
+input{
+  padding: 16px 70px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color:  aliceblue;
+  border: 2px solid aliceblue;
+  color: rgb(0, 0, 0);
+  outline: none;
+}
+
 /* Estilos específicos para dispositivos pequeños (hasta 600px de ancho) */
 
 @media screen and (max-width: 600px) {
