@@ -40,21 +40,38 @@ body {
     bottom: 0;
     right: 0;
     top: 0;
+    border-radius: 25px;
     display: none;
     position: fixed;
     z-index: 500;
   }
 
-  h2{
-    color: #000;
-    font-size: 35px;
+  
+
+  .detalle{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    padding: 50px 55px;
+    box-shadow:  0 0 20px rgb(0, 0, 0, 0.2); 
+    border-radius: 20px;
+    text-align: center;
+    width: 330;
 }
 
 .input-group{
     display: flex;
     flex-direction: column;
     text-align: left;
+}
 
+h2{
+    color: #000;
+    font-size: 35px;
 }
 
 label{
@@ -71,23 +88,6 @@ input{
     border: 2px solid aliceblue;
     color: black;
     outline: none;
-}
-
-
-form{
-    padding: 50px 55px;
-    box-shadow:  0 0 20px rgb(0, 0, 0, 0.2); 
-    border-radius: 20px;
-    text-align: center;
-    width: 330;
-}
-
-
-  .detalle{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
   .Detalle2 {
