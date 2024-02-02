@@ -29,7 +29,19 @@ body {
     width: 200%;
   }
 
+#contacto1,
+#contacto2 {
+  flex: 1 0 300px;
+}
+
   .Detalle1 {
+    display: none;
+    background: black;
+    border-radius: 25px;
+    max-width: 100%;
+  }
+
+  .Detalle2 {
     display: none;
     background: black;
     border-radius: 25px;
