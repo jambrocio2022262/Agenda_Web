@@ -11,6 +11,13 @@ body {
     text-align: center;
   }
 
+  
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
   .contenedor {
     display: flex;
     flex-wrap: wrap;
@@ -34,68 +41,78 @@ body {
   flex: 1 0 300px;
 }
 
-  .Detalle1 {
-    background-color: #fc4656;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    border-radius: 25px;
-    display: none;
-    position: fixed;
-    z-index: 500;
-  }
+.Detalle1 {
+  background-color: #fc4656;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: none;
+  position: fixed;
+  z-index: 999;
+}
 
-  
-
-  .detalle{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.detalle1{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 form{
-    padding: 50px 55px;
-    box-shadow:  0 0 20px rgb(0, 0, 0, 0.2); 
-    border-radius: 20px;
-    text-align: center;
-    width: 330;
+  padding: 50px 100px;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 330;
 }
 
 .input-group{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 h2{
-    color: #000;
-    font-size: 35px;
+  color: #000;
+  font-size: 35px;
 }
 
 label{
-    color: black;
-    font-size: 15px;
-    font-weight: 600px;
-    margin-bottom: 15px;
+  color: black;
+  font-size: 15px;
+  font-weight: 600px;
+  margin-bottom: 15px;
 }
 
 input{
-    padding: 16px 25px;
-    border-radius: 25px;
-    background-color: aliceblue;
-    border: 2px solid aliceblue;
-    color: black;
-    outline: none;
+  padding: 16px 70px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color:  aliceblue;
+  border: 2px solid aliceblue;
+  color: rgb(0, 0, 0);
+  outline: none;
 }
 
-  .Detalle2 {
-    display: none;
-    background: black;
-    border-radius: 25px;
-    max-width: 100%;
-  }
+.Detalle2 {
+  background-color: #fc4656;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: none;
+  position: fixed;
+  z-index: 999;
+}
+
+.detalle2{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
   /* Estilos específicos para dispositivos pequeños (hasta 600px de ancho) */
 
