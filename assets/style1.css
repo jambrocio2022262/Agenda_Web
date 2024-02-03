@@ -115,6 +115,78 @@ input{
   outline: none;
 }
 
+.Detalle2 {
+  background-color: #fc4656;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: none;
+  position: fixed;
+  z-index: 999;
+}
+
+.detalle2{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Detalle3 {
+  background-color: #fc4656;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: none;
+  position: fixed;
+  z-index: 999;
+}
+
+.detalle3{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Detalle4 {
+  background-color: #fc4656;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: none;
+  position: fixed;
+  z-index: 999;
+}
+
+.detalle4{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Detalle5 {
+  background-color: #fc4656;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: none;
+  position: fixed;
+  z-index: 999;
+}
+
+.detalle5{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Estilos específicos para dispositivos pequeños (hasta 600px de ancho) */
 
 @media screen and (max-width: 600px) {
